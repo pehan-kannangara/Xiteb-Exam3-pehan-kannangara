@@ -1,0 +1,20 @@
+.logo-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    max-width: 2000px;
+    max-height: 120px;
+    margin: 0 20px;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+    opacity: 1;
+}

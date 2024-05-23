@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69d272d1.css",
+    "main.js": "/static/js/main.81cd6c8c.js",
+    "static/js/453.56f46472.chunk.js": "/static/js/453.56f46472.chunk.js",
+    "static/media/p1.png": "/static/media/p1.fe1d423fc60d02822565.png",
+    "static/media/p7.png": "/static/media/p7.ac10a4f2c5092c1d8e02.png",
+    "static/media/p6.png": "/static/media/p6.54c816e16f56638791f5.png",
+    "static/media/p8.png": "/static/media/p8.1977540ff5ff137af5d8.png",
+    "static/media/p9.png": "/static/media/p9.8ed0508e963fe4a0c569.png",
+    "static/media/p10.png": "/static/media/p10.a43f64a98760f176ba68.png",
+    "static/media/p2.png": "/static/media/p2.524249dfb8b957fdfe3f.png",
+    "static/media/p3.png": "/static/media/p3.44e0e176e14bd399439c.png",
+    "static/media/p4.png": "/static/media/p4.782ba8361dea438dd26f.png",
+    "static/media/twitter.png": "/static/media/twitter.c6e48e60f856cb822273.png",
+    "static/media/p5.png": "/static/media/p5.6ea150c12acaeff0985e.png",
+    "static/media/venmo.png": "/static/media/venmo.f498513e5fc4d33b18d6.png",
+    "index.html": "/index.html",
+    "main.69d272d1.css.map": "/static/css/main.69d272d1.css.map",
+    "main.81cd6c8c.js.map": "/static/js/main.81cd6c8c.js.map",
+    "453.56f46472.chunk.js.map": "/static/js/453.56f46472.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69d272d1.css",
+    "static/js/main.81cd6c8c.js"
+  ]
+}

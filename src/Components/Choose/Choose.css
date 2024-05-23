@@ -1,0 +1,113 @@
+.choose-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;   
+}
+
+.trusted-clients,
+.why-choose-us {  
+    flex: 1;
+    margin: 0 20px;
+}
+
+.trusted-clients {
+    text-align: center;
+}
+
+.trusted-clients h2,
+.why-choose-us h2 { 
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.trusted-clients p,
+.why-choose-us p {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    position: relative;
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.testimonial blockquote {
+    margin: 0;
+    padding-left: 20px;
+    position: relative;
+    font-size: 16px;
+    color: #333;
+}
+
+.testimonial blockquote::before {
+    content: "“";
+    font-size: 40px;
+    color: #e74c3c;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.author {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.author strong {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.author span {
+    font-size: 14px;
+    color: #777;
+}
+
+.why-choose-us {
+    text-align: center;
+}
+
+.accordion {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.accordion-title h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+}
+
+.accordion-title span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.accordion-content {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #555;
+}

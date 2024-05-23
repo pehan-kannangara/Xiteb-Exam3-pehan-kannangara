@@ -1,0 +1,94 @@
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    background-color: white;
+}
+
+.text-content {
+    max-width: 600px;
+    margin-left: 100px;
+}
+
+.text-content h5 {
+    margin-bottom: 1px;
+}
+
+.text-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.text-content h1 span {
+    color: #FFCC00;
+}
+
+.text-content p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.discover-btn {
+    padding: 8px 16px;
+    margin-top: 1px;
+    margin-bottom: 100px;
+    background-color: #FFCC00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.discover-btn:hover {
+    background-color: #E6B800;
+}
+
+.image-content {
+    position: relative;
+}
+
+.image-content img {
+    max-width: 600px;
+    border-radius: 10px;
+    margin-right: 70px;
+}
+
+.overlay-text {
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+    bottom: 180px;
+    transform: rotate(-90deg);
+    font-size: 10px;
+    color: #333;
+}
+
+.slider-navigation {
+    padding: 12px 24px;
+    background-color: #FFCC00;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.slider-navigation span {
+    color: white;
+    margin-right: 20px;
+}
+
+.arrows button {
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 5px;
+}

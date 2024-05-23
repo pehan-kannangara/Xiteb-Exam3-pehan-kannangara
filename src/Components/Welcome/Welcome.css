@@ -1,0 +1,64 @@
+.welcome {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    margin-left: 50px;
+}
+
+.welcome-image {
+    position: relative;
+    flex: 1;
+}
+
+.welcome-image img {
+    width: 100%;
+    height: auto;
+}
+
+.clients-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #ff7043;
+    padding: 10px;
+    color: #fff;
+}
+
+.clients-info h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.clients-info p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.welcome-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.welcome-content h2 {
+    font-size: 36px;
+}
+
+.welcome-content h2 span {
+    color: #ff7043;
+}
+
+.welcome-content p {
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.more-about-us {
+    background-color: lightgrey;
+    color: lightseagreen;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}

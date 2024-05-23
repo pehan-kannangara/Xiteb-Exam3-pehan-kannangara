@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.nav a {
+    font-weight: bold;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.actions button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.quote-btn {
+    background-color: #FFCC00;
+    margin-right: 5px;
+}
+
+.sign-in-btn {
+    background-color: black;
+    color: white;
+    margin-right: 65px;
+}

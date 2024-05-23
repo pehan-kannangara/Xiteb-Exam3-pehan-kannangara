@@ -1,0 +1,44 @@
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #f8f8f8;
+}
+
+.stat-item {
+  position: relative;
+  text-align: center;
+  margin: 0 20px;
+  flex: 1;
+}
+
+.stat-background {
+  font-size: 100px;
+  font-weight: bold;
+  color: rgba(0, 31, 84, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.stat-content {
+  position: relative;
+  z-index: 1;
+}
+
+.stat-content h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001F54;
+  margin: 0;
+}
+
+.stat-content p {
+  font-size: 18px;
+  color: #001F54;
+}
